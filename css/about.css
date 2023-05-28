@@ -1,0 +1,77 @@
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap');
+
+  /*body{width: 500px;}*/
+.A{
+    margin: 50px;
+width: 90%;
+position: relative ;
+left: 100px;
+display: inline-block;
+font-family: 'Kalam', cursive; 
+font-size: 26px;
+}
+
+.B{font-family: 'Kalam', cursive; 
+    font-size: 26px;
+    width: 90%;
+    margin: 50px;
+}
+.h1{font-family:'Kalam', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 50px;
+}
+footer{
+    position: absolute;
+    right: 20px;
+}
+body{
+    background-color: rgb(247, 129, 149);
+}
+nav ul{
+     border-style:none;
+     border-width: 12px;
+    background-color: rgb(223, 188, 255);
+    display: flex;
+    padding :center;
+position: relative;
+bottom:30px;
+   margin-right: 80px; 
+    width: 60%;
+  justify-content: space-between; 
+  list-style-type: none; /* with out the dots */
+  float: right ;
+
+
+} 
+.name{ margin-left: 150px;
+    padding-right: 0;
+}
+.fieldset{
+    position:relative;
+    top:20px;
+    left:10px;
+   /* margin-right: 100px;
+    padding-right: 20px;*/
+   width: 500px;
+   display: inline-block;
+}
+#mypic{/*display: inline-block;*/
+position: relative;
+top:30px;
+}
+.contact { margin-left: 80px;
+    padding-left: 38%;
+    width: 50%;
+
+}
+#Name{ font-family: cursive;
+    font-size: 1500px;}
+#Sign  {width: 100px;
+height: 50px;
+
+}
+
+

@@ -1,0 +1,132 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap');
+p{ 
+    background-color: rgb(150, 158, 219) ;
+    font-style: oblique;
+    color :blue
+
+}
+
+
+
+.A{
+    color: aquamarine;
+    font-size: 40PX;
+}
+.bb{
+    background-color: rgb(114, 175, 255)
+}
+.title{
+    font-style:italic ;
+    font-size: 60px;
+    margin-top: auto; font-family: 'Kalam', cursive; 
+}
+.user{ 
+    font-family: 'Kalam', cursive; 
+font-size: 26px; float:right;
+    width: 50px;
+    direction: ltr;
+    margin-top: 0;
+margin-bottom: auto;
+    margin-left: auto;
+    position: relative;
+    bottom:150px
+}
+.bar{
+    font-size: 35px;
+}
+#Agenda{
+    margin-right: auto;
+
+}
+a:hover{
+    border: 20px;
+    cursor: alias;
+    color:red;
+    text-decoration: none;
+}
+.table{  margin-bottom: 200px;
+ 
+
+    width: 80%;
+    
+} .work{
+    font-size: 26px; font-style: oblique; 
+    font-family: 'Kalam', cursive; 
+}
+.family{
+font-size: 26px; font-style: oblique;
+font-family: 'Kalam', cursive;  }
+.birth{
+ font-size: 26px; font-style: oblique;
+ font-family: 'Kalam', cursive; }
+ .special{  font-size: 26px; font-style: oblique; 
+    font-family: 'Kalam', cursive; 
+
+}
+.th{
+    font-size: 35px;
+    direction: ltr;
+    text-align: left; font-family: 'Kalam', cursive; 
+}
+ nav ul{ 
+    display: flex;
+    padding: auto ; 
+    width: 60%;
+  justify-content: space-between; 
+
+  list-style-type: none; /* with out the dots */
+
+ }
+ 
+ 
+ .navbar{border-style:none;
+
+   background-color: rgb(96, 169, 218);
+   display: flex;
+   padding :center;
+/*position: relative;
+bottom:30px;*/
+    float: right;
+    margin-right: 150px;
+    position: fixed ;
+    top :0px;
+    right:0
+ }
+ footer{
+    position: absolute;
+    right: 20px;
+ }
+ .z{
+    display: flex;
+    list-style-type: none;background-color: #217fd6;
+    height: 50px;
+ }
+ #note{
+    padding-left: 29px;
+    font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+ }
+ #agenda{
+    padding-right: 25px;
+    font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+ }
+ #alarm{
+    font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+ }
+ #tasks{
+    font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+ }
