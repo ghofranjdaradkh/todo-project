@@ -12,11 +12,11 @@ and we took the basic HTML commands . and apply it in visual studio coe **VSC**.
  ![Alt text](./pic/todo1.PNG)
  ![Alt text](./pic/todo2.PNG)
 
-### What we learned Tody lec#4
+### What we learned Today lec#4
 we take the **css** cascading style sheet 
 and how to use elements in it , diffiernce between Inline and Block elements and how to change position for elements .
 
-Its intersting and amazing it take 3 hours
+Its intersting and amazing it took 3 hours.
 
 
  
