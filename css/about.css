@@ -2,10 +2,9 @@
  
   @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap');
 
-  /*body{width: 500px;}*/
 .A{
     margin: 50px;
-width: 90%;
+width: auto;
 position: relative ;
 left: 100px;
 display: inline-block;
@@ -22,18 +21,39 @@ font-size: 26px;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 50px;
+   width: 800px;
+   height: 250px;
+   background: url(https://3rabapp.com/appstore/wp-content/uploads/2020/09/cat8-26-1-1024x683.jpg);
+background-size: cover;
+padding-top: 120px;
 }
-footer{
-    position: absolute;
+footer{ background-color: blueviolet;
+    width: 30%;
+    position:relative;
     right: 20px;
+  
+    justify-content:space-between ;
+    padding-left: 72%;
+    align-items: center
 }
 body{
-    background-color: rgb(247, 129, 149);
+    background:url(https://png.pngtree.com/background/20210711/original/pngtree-fresh-simple-pink-blue-watercolor-background-picture-image_1145523.jpg);
+    background-size: cover;
 }
+a:hover{ text-decoration: none;
+    cursor:grab;
+        border: 20px;
+        color:red;
+            font-size: 37px;}
+.navbar a{
+        text-decoration: none;
+    }
+
+
 nav ul{
      border-style:none;
      border-width: 12px;
-    background-color: rgb(223, 188, 255);
+    background-color: rgb(255, 188, 252);
     display: flex;
     padding :center;
 position: relative;
@@ -43,11 +63,16 @@ bottom:30px;
   justify-content: space-between; 
   list-style-type: none; /* with out the dots */
   float: right ;
+  font-size: 25px;
 
 
-} 
+}
+ a  :hover{
+    text-decoration: none;
+}  
 .name{ margin-left: 50px;
     padding-right: 0;
+    color: blueviolet;
 }
 .fieldset{
     position:relative;
@@ -85,4 +110,7 @@ margin: 20px;
     width: 200px;
     height: 100px;
 
+}
+#todo{
+    border-radius: 44px;
 }

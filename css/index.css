@@ -2,6 +2,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: auto;
+    box-sizing: border-box;
+    }
 p{ 
     background-color: rgb(150, 158, 219) ;
     font-style: oblique;
@@ -15,13 +20,21 @@ p{
     color: aquamarine;
     font-size: 40PX;
 }
-.bb{
-    background-color: rgb(114, 175, 255)
+.body{
+    background:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-light-blue-ink-simple-and-fresh-background-image_275196.jpg);
+background-size: cover;
 }
 .title{
     font-style:italic ;
-    font-size: 60px;
-    margin-top: auto; font-family: 'Kalam', cursive; 
+    font-size: 65px;
+    background: url(https://img.freepik.com/fotos-premium/fundo-de-madeira-azul-claro-com-flores-delicadas_573856-1284.jpg?w=2000);
+    width: 800px;
+    height: 150px;
+    background-size: cover;
+    padding-top: 200px;
+    margin-bottom: 20px;
+ justify-content: center;
+font-family: 'Kalam', cursive; 
 }
 .user{ 
     font-family: 'Kalam', cursive; 
@@ -46,9 +59,12 @@ a:hover{
     cursor: alias;
     color:red;
     text-decoration: none;
+ text-decoration: none;
+        cursor:grab;
+        font-size: 37px;
 }
 .table{  margin-bottom: 200px;
- 
+ align-items: start;
 
     width: 80%;
     
@@ -71,11 +87,11 @@ font-family: 'Kalam', cursive;  }
     direction: ltr;
     text-align: left; font-family: 'Kalam', cursive; 
 }
- nav ul{ 
+ nav ul{ font-size: 25px;
     display: flex;
     padding: auto ; 
     width: 60%;
-  justify-content: space-between; 
+  justify-content: space-between;
 
   list-style-type: none; /* with out the dots */
 
@@ -83,7 +99,7 @@ font-family: 'Kalam', cursive;  }
  
  
  .navbar{border-style:none;
-
+text-decoration-line: none;
    background-color: rgb(96, 169, 218);
    display: flex;
    padding :center;
@@ -95,16 +111,39 @@ bottom:30px;*/
     top :0px;
     right:0
  }
- footer{
-    position: absolute;
-    right: 20px;
+.navbar a{
+    text-decoration: none;
+}
+ 
+ 
+ footer{ display: flex;
+  
+    width:100%;
+    background-color: rgb(26, 26, 221);
+    position:relative;
+    right: 0px;
+  
+    justify-content:space-between ;
+    padding-left: 0px;
+    align-items: center
+   
  }
- .z{
+
+ .copyright{
+    font-size: larger;
+ }
+ 
+ .list{ color:rgb(83, 83, 97);
     display: flex;
     list-style-type: none;background-color: #217fd6;
     height: 50px;
  }
+ li a { color: rgb(0, 0, 146);
+    text-decoration: none;
+    
+ }
  #note{
+     text-decoration: none;
     padding-left: 29px;
     font-family: 'Caveat', cursive;
 font-family: 'Kalam', cursive;
@@ -129,4 +168,7 @@ font-family: 'Rubik Wet Paint', cursive;
 font-family: 'Kalam', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik Wet Paint', cursive;
+ }
+ @media(max-width:1023){
+    padding: ;
  }
