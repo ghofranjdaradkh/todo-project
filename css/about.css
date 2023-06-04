@@ -50,7 +50,7 @@ a:hover{ text-decoration: none;
     }
 
 
-nav ul{
+nav ul{ 
      border-style:none;
      border-width: 12px;
     background-color: rgb(255, 188, 252);
@@ -58,8 +58,8 @@ nav ul{
     padding :center;
 position: relative;
 bottom:30px;
-   margin-right: 80px; 
-    width: 60%;
+   margin-right: 100px; 
+    width: 1000px;
   justify-content: space-between; 
   list-style-type: none; /* with out the dots */
   float: right ;

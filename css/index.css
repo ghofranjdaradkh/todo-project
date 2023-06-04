@@ -103,10 +103,11 @@ text-decoration-line: none;
    background-color: rgb(96, 169, 218);
    display: flex;
    padding :center;
+   width: 1000px;
 /*position: relative;
 bottom:30px;*/
     float: right;
-    margin-right: 150px;
+    margin-right: 100px;
     position: fixed ;
     top :0px;
     right:0
@@ -129,7 +130,8 @@ bottom:30px;*/
    
  }
 
- .copyright{
+ .copyright{ color: white;
+    background-color: rgb(26, 26, 221);
     font-size: larger;
  }
  
@@ -169,6 +171,4 @@ font-family: 'Kalam', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik Wet Paint', cursive;
  }
- @media(max-width:1023){
-    padding: ;
- }
+
