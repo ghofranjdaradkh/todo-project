@@ -1,6 +1,6 @@
-let Names=  prompt("Please Enter Your Name");
-let Gender=prompt("Please Enter Your Gender", "male or female");
-let Age =prompt("Please Enter Your Age" );
+let Names=  prompt("Please Enter Your Name :");
+let Gender=prompt("Please Enter Your Gender:", "male or female");
+let Age =prompt("Please Enter Your Age:" );
 UserAge(Age);
 WelcomeMassage();
 Question1=prompt("Is it the first time you visit the todo-list ? ","Yes Or No");
