@@ -2,13 +2,14 @@ let Names=  prompt("Please Enter Your Name");
 let Gender=prompt("Please Enter Your Gender", "male or female");
 let Age =prompt("Please Enter Your Age" );
 UserAge(Age);
+WelcomeMassage();
 Question1=prompt("Is it the first time you visit the todo-list ? ","Yes Or No");
  Ans1=AnsQuestion(Question1)
 var  Question2=prompt("Are you have tasks you mustn't forget it?","Yes Or No ");
 Ans2=AnsQuestion(Question2)
 var Question3=prompt("Are you exited to be in ?"," Yes Or No");
 Ans3=AnsQuestion(Question3) 
-WelcomeMassage();
+
 
 let answers=[Ans1,Ans2,Ans3]
 PrintAnswers(answers)
